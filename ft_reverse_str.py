@@ -8,6 +8,6 @@ def ft_len(str):
 def ft_reverse_str(str):
     l = ft_len(str)
     r = ""
-    for i in range(l - 1, -1, -1):
+    for i in range(-1, -l - 1, -1):
         r = r + str[i]
     return r
