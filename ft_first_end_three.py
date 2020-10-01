@@ -14,4 +14,3 @@ def ft_first_end_three(str):
     else:
         r += str[0] + str[1] + str[2] + str[l - 3] + str[l - 2] + str[l - 1]
     return r
-
