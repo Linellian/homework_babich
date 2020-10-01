@@ -6,4 +6,4 @@ def ft_percent_lower_uppercase(str):
             l += 1
         elif i >= "A" and i <= "C":
             u += 1
-    return int(l / u * 100)
+    return int(l / u)
