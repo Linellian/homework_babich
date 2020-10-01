@@ -7,9 +7,11 @@ def ft_len(str):
 
 def ft_first_end_three(str):
     l = ft_len(str)
+    r = ""
     if l <= 5:
-        for i in range(l - 1):
-            print(str[0], end="")
-        print(str[0])
+        for i in range(l):
+            r += str[0]
     else:
-        print(str[0] + str[1] + str[2] + str[l - 3] + str[l - 2] + str[l - 1])
+        r += str[0] + str[1] + str[2] + str[l - 3] + str[l - 2] + str[l - 1]
+    return r
+
