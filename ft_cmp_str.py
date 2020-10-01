@@ -5,7 +5,6 @@ def ft_len(str):
     return c
 
 
-
 def ft_cmp_str(str1, str2, num):
     r = ""
     l = ft_len(str1)
@@ -15,4 +14,3 @@ def ft_cmp_str(str1, str2, num):
     for i in range(num, l):
         r += str1[i]
     return r
-
