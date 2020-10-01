@@ -9,6 +9,6 @@ def ft_even_place(str):
     r = ""
     l = ft_len(str)
     for i in range(l):
-        if i % 2 == 0:
+        if i % 2 != 0:
             r = r + str[i]
     return r
