@@ -6,11 +6,11 @@ def ft_len(str):
 
 
 def ft_cmp_str(str1, str2, num):
-    r = ""
     l = ft_len(str1)
-    for i in range(num):
+    r = ""
+    for i in range(num - 1):
         r += str1[i]
     r += str2
-    for i in range(num, l):
+    for i in range(num - 1, l):
         r += str1[i]
     return r
