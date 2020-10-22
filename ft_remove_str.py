@@ -1,0 +1,1 @@
+def ft_remove_str(str1, str2):

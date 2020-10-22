@@ -1,0 +1,1 @@
+def ft_change_str(str1, str2, str3):
