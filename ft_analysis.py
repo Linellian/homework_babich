@@ -48,6 +48,3 @@ def ft_analysis(str):
     print(r)
     print(ft_len(str))
 
-
-
-ft_analysis("strokkka")
