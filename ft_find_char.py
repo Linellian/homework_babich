@@ -1,1 +1,0 @@
-def ft_find_char(char, str):
