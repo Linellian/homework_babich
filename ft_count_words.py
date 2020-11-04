@@ -1,1 +1,0 @@
-def ft_count_words(str):
