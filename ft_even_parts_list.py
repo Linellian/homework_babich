@@ -1,4 +1,4 @@
-def ft_eben_parts_list(mass):
+def ft_even_parts_list(mass):
     res = list()
     for i in mass:
         if i % 2 == 0:
