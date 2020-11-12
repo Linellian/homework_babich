@@ -1,14 +1,16 @@
-def ft_len(lst):
-    c = 0
-    for i in lst:
-        c += 1
-    return c
+def ft_len(str):
+    count = 0
+    for i in str:
+        count += 1
+    return count
 
 
-def ft_join(lst, sep = " "):
+def ft_join(l, sepp=" "):
     r = ""
-    for i in range(ft_len(lst) - 1):
-        r += str(lst[i])
-        r += sep
-    r += str(lst[-1])
+    b = 0
+    if not sepp:
+        sepp = " "
+    while b != ft_len(s) - 1:
+        r += l[b] + sepp
+    r = r + l[-1]
     return r
