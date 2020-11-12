@@ -5,12 +5,10 @@ def ft_len(str):
     return count
 
 
-def ft_join(l, sepp=" "):
+def ft_join(lst, sepp=" "):
     r = ""
-    b = 0
-    if not sepp:
-        sepp = " "
-    while b != ft_len(s) - 1:
-        r += l[b] + sepp
-    r = r + l[-1]
+    for i in range(ft_len(lst) - 1):
+        r += str(lst[i])
+        r += sepp
+    r += str(lst[-1])
     return r
